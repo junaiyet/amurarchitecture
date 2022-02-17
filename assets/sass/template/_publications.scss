@@ -1,0 +1,21 @@
+.publication{
+    .project-item{
+        padding-bottom: 30px;
+        img{
+            width: 60%;
+        }
+        p{
+            padding-top: 10px;
+        }
+    }
+}
+
+@include tablet{
+    .publication{
+        .project-item{
+            img{
+                width: 100%;
+            }
+        } 
+    } 
+}

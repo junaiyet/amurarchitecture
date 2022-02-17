@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+// ::selection{
+//     background-color:$secondery-color ;
+//     color: $white;
+// }
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+a,
+button {
+    cursor: pointer;
+    transition: .3s ease;
+
+    &:focus {
+        outline: 0;
+
+    }
+}
+img{
+    width: 100%;
+}
+
+.bg-dark{
+    background-color:$bg-dark !important;
+}
+.headding{
+    h2{
+
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+}
+.section-pd{
+    padding-bottom: 80px;
+}
+.section-pt{
+    padding-top: 120px;
+}

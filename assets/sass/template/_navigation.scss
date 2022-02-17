@@ -1,0 +1,37 @@
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: $bg-dark;
+    padding: 15px 0;
+    margin-bottom: 50px;
+    .navbar-brand{
+
+        img{
+            width: 180px;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                display: inline-block;
+                color: $white;
+               justify-content: space-around;
+            }
+        }
+    }
+}
+
+@include mobile{
+    .navigation{
+
+        .navbar-nav{
+    
+            .nav-item{
+               text-align: right;
+            } 
+        }
+    } 
+}

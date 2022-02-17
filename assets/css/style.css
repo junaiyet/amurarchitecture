@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+body {
+  overflow-x: hidden;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #8e9091;
+}
+
+h4 {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+a:focus,
+button:focus {
+  outline: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-dark {
+  background-color: #8e9091 !important;
+}
+
+.headding h2 {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.section-pd {
+  padding-bottom: 80px;
+}
+
+.section-pt {
+  padding-top: 120px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #8e9091;
+  padding: 15px 0;
+  margin-bottom: 50px;
+}
+
+.navigation .navbar-brand img {
+  width: 180px;
+}
+
+.navigation .navbar-nav .nav-item .nav-link {
+  display: inline-block;
+  color: #fff;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 991px) {
+  .navigation .navbar-nav .nav-item {
+    text-align: right;
+  }
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 999999;
+}
+
+.home-page .item {
+  width: 140px;
+  height: 95px;
+  margin-bottom: 70px;
+}
+
+.home-page .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page .item p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.home-page .item-two {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+.home-page .item-two img {
+  width: 85%;
+  height: 85%;
+}
+
+.logo-area .logo {
+  position: absolute;
+  left: 45px;
+  top: 63px;
+  z-index: 9999;
+  width: 20%;
+  height: 120px;
+}
+
+.logo-area .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-area .logo h1 {
+  padding-left: 50px;
+  font-size: 40px;
+  font-family: 'Moon Dance', cursive;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  color: green;
+}
+
+.home-page-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home-page-project .home-page-project-item {
+  height: 140px;
+  width: 18%;
+}
+
+@media (max-width: 991px) {
+  .logo-area .logo h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page-project .home-page-project-item {
+    width: 45%;
+  }
+}
+
+h4 {
+  font-family: 'Licorice', cursive;
+  font-weight: 400;
+}
+
+.project-details .project-slider-part {
+  text-align: center;
+}
+
+.project-details .project-slider-part a {
+  height: 350px;
+}
+
+.project-details .project-slider-part a img {
+  height: 100%;
+}
+
+.project-details .project-slider-part span {
+  display: none;
+}
+
+.project-details .project-slider-part p {
+  padding: 70px 0;
+}
+
+.project-details .project-gallery .gallery-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.project-details .project-gallery .gallery-img .images {
+  width: 70%;
+}
+
+.project-details .project-gallery .gallery-img .images img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-details .prev-arrow {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  left: 42%;
+  top: 48%;
+  -webkit-transform: translateX(-42%);
+          transform: translateX(-42%);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.project-details .prev-arrow:hover {
+  color: blue;
+}
+
+.project-details .next-arrow {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  right: 42%;
+  top: 48%;
+  -webkit-transform: translateX(-42%);
+          transform: translateX(-42%);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.project-details .next-arrow:hover {
+  color: blue;
+}
+
+.about-page {
+  margin-top: 100px;
+}
+
+.about-page .about-banner {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 50px 0;
+}
+
+.about-page .about-details p {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.project-page a {
+  height: 200px;
+}
+
+.project-page a img {
+  height: 100%;
+}
+
+.publication .project-item {
+  padding-bottom: 30px;
+}
+
+.publication .project-item img {
+  width: 60%;
+}
+
+.publication .project-item p {
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .publication .project-item img {
+    width: 100%;
+  }
+}
+
+.crafts-page {
+  padding-bottom: 100px;
+}
+
+.crafts-page .crafts-item p {
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.crafts-page .prev-arrow {
+  position: absolute;
+  right: 31px;
+  bottom: 0px;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.crafts-page .prev-arrow:hover {
+  color: blue;
+}
+
+.crafts-page .next-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.crafts-page .next-arrow:hover {
+  color: blue;
+}
+
+.contact .headding {
+  padding-bottom: 30px;
+}
+
+.contact .headding .headding-two {
+  font-weight: 600 !important;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+.contact .contact-details {
+  text-align: center;
+}
+
+.contact .contact-details h5 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.contact .contact-details p {
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.contact .contact-details ul li {
+  display: inline-block;
+}
+
+.contact .contact-details ul li a {
+  margin: 15px;
+}
+
+.contact .contact-details ul li a i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #0d8af0;
+  font-size: 20px;
+}
+
+.contact .contact-details ul li:nth-child(2) a i {
+  background: #0a66c2;
+}
+
+.contact .contact-details ul li:nth-child(3) a i {
+  background: #1d9bf0;
+}
+
+.contact .map {
+  margin-bottom: 80px;
+}
+
+.gallery .gallery-item {
+  margin-bottom: 24px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.gallery .gallery-item:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.gallery .gallery-item img {
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .home-page-f-p {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+footer a {
+  display: inline-block;
+  color: red;
+}
+
+@media (max-width: 991px) {
+  footer .footer-paragraph {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
